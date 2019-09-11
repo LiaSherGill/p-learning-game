@@ -1,3 +1,11 @@
+/* STYLE FOR TITLE HEADING */
+div.header {
+  text-align: center;
+  background-color: #E6DEC5;
+  padding: 30px 30px 30px 30px
+}
+
+/* STYLE FOR MAIN ALPHABET SECTION */
 div.solid {
   border-style: solid;
   border-width: 3.5px;
@@ -6,4 +14,8 @@ div.solid {
   text-align: center;
   padding: 80px 80px 80px 80px;
   font-family: 'Mukta Mahee', sans-serif; font-size: 4em;
+}
+
+div.pronounciation {
+  font-size: 0.85em;
 }
