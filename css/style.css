@@ -19,7 +19,7 @@ div.solid {
   background-color: #E6DEC5;
   padding: 80px 80px 80px 80px;
   text-align: center;
-  font-family: 'Mukta Mahee', sans-serif; font-size: 4em;
+  font-family: 'Mukta Mahee', sans-serif; font-size: 3em;
 }
 
 /* div.letter {
@@ -27,9 +27,9 @@ div.solid {
   font-family: 'Mukta Mahee', sans-serif; font-size: 4em;
 } */
 
-div.pronounciation {
+/* div.pronounciation {
   font-size: 0.85em;
-}
+} */
 
 /* FOR TOGGLE SOLUTION */
 .button {
