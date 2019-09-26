@@ -32,11 +32,12 @@ div.pronounciation {
 }
 
 /* FOR TOGGLE SOLUTION */
-.mybutton {
+.button {
   color: black;
   background-color: #E6DEC5;
   text-decoration: none;
   border: none;
+  cursor: pointer;
 }
 
 /* FOR TOGGLE LINK SOLUTION */
