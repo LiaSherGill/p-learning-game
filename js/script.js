@@ -33,7 +33,7 @@
 //     }
 
 // BEST TOGGLE SOLUTION
-$("#button").on("click", function() {
+$(".button").on("click", function() {
   var el = $(this);
   if (el.text() == el.data("text-swap")) {
     el.text(el.data("text-original"));
