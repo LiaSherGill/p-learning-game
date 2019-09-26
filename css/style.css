@@ -11,18 +11,43 @@ div.solid {
   border-width: 3.5px;
   border-color: #FF9991;
   background-color: #E6DEC5;
-  text-align: center;
   padding: 80px 80px 80px 80px;
+  text-align: center;
   font-family: 'Mukta Mahee', sans-serif; font-size: 4em;
 }
+
+/* div.letter {
+  text-align: center;
+  font-family: 'Mukta Mahee', sans-serif; font-size: 4em;
+} */
 
 div.pronounciation {
   font-size: 0.85em;
 }
 
+/* FOR TOGGLE SOLUTION */
 .mybutton {
   color: black;
   background-color: #E6DEC5;
   text-decoration: none;
   border: none;
 }
+
+/* FOR TOGGLE LINK SOLUTION */
+/* .togglelink {
+  font-size: 0.25em;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF9991;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+} */

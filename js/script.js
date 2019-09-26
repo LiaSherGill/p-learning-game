@@ -32,6 +32,7 @@
 //         document.getElementById('future-clicked').innerHTML = 'Future World';
 //     }
 
+// BEST TOGGLE SOLUTION
 $("#button").on("click", function() {
   var el = $(this);
   if (el.text() == el.data("text-swap")) {
@@ -41,3 +42,8 @@ $("#button").on("click", function() {
     el.text(el.data("text-swap"));
   }
 });
+
+// TOGGLE LINK - ATTEMPT AT PUTTING JAVASCRIPT HERE
+// function myFunction() {
+//   "onclick" = document.getElementById('chgtext').innerHTML
+// }

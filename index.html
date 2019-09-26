@@ -18,8 +18,11 @@
     <div class="col-sm">
       <div class="header">
         <h3>PUNJABI ALPHABET</h3>
-        Any instructions go here <br>
 
+        <!-- <div id="chgtext">ਓ</div>
+        <a href="#" onclick="document.getElementById('chgtext').innerHTML='ਓ';">Letter</a> &nbsp; &nbsp;
+        <a href="#" onclick="document.getElementById('chgtext').innerHTML='Ura';">Pronounciation</a>&nbsp;  &nbsp;
+        </div> -->
 
         <!-- <button onclick="clicked_on()">Click for future</button><br>
         <span id="future-clicked"></span> -->
@@ -34,19 +37,43 @@
 
 
 
-    <div class="row no-gutters">
-      <div class="col-sm">
+    <!-- <div class="row no-gutters"> -->
+
+    <!-- TOGGLE LINK SOLUTION START -->
+      <!-- <div class="col-sm">
+        <div class="solid">
+          <div id="chgtext" class="letter">ਓ</div>
+          <a href="#" onclick="document.getElementById('chgtext').innerHTML='ਓ';"><div class="togglelink">Letter</div></a>
+          <a href="#" onclick="document.getElementById('chgtext').innerHTML='Ura';"><div class="togglelink">Pronounciation</div></a>
+        </div>
+      </div> -->
+      <!-- TOGGLE LINK SOLUTION END -->
+
+      <!-- BEST TOGGLE SOLUTION V1 START -->
+      <!-- <div class="col-sm">
         <div class="solid">
           <button id="button" class="mybutton" data-text-swap="Ura">
             <div class="letter">ਓ</div>
           </button>
-          <!-- <div class="letter">ਓ</div> -->
-          <!-- <div class="pronounciation">ura</div> -->
+        </div>
+      </div> -->
+      <!-- BEST TOGGLE SOLUTION V1 END -->
+
+    <!-- </div> -->
+
+
+    <div class="row no-gutters">
+      <div class="col-sm">
+        <div class="solid">
+          <onclick id="button" data-text-swap="Ura">
+            <div class="letter">ਓ</div>
+          <!-- </button> -->
         </div>
       </div>
       <div class="col-sm">
         <div class="solid">
-          ਅ
+          <onclick id="button" data-text-swap="BLEU">
+            <div class="letter">ਅ</div>
       </div>
       </div>
       <div class="col-sm">
