@@ -17,8 +17,8 @@ div.solid {
   border-width: 2px;
   border-color: #FF9991;
   background-color: #E6DEC5;
-  /* padding: 80px 80px 80px 80px; */
-  padding: 100px 100px 100px 100px;
+  padding: 80px 80px 80px 80px;
+  /* padding: 100px 100px 100px 100px; */
   text-align: center;
   /* font-family: 'Mukta Mahee', sans-serif; font-size: 3em; */
 }
@@ -43,7 +43,7 @@ div.solid letter {
   background-color: #E6DEC5;
   text-decoration: none;
   border: none;
-  font-size: 1.5em;
+  font-size: 2em;
   cursor: pointer;
 }
 
