@@ -5,10 +5,22 @@ div.header {
   padding: 30px 30px 10px 30px
 }
 
+.title {
+  text-align: center;
+  font-family: 'Rozha One', serif;
+  font-size: 2em;
+}
+
 div.sub_header {
   text-align: center;
   background-color: #E6DEC5;
   padding: 10px 30px 30px 30px
+}
+
+.instructions {
+  text-align: center;
+  font-family: 'Rozha One', serif;
+  font-size: 1em;
 }
 
 /* STYLE FOR MAIN ALPHABET SECTION */
